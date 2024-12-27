@@ -1,0 +1,13 @@
+.text-2xl.font-bold.bg-gradient-to-r.from-blue-500.to-purple-500.bg-clip-text.text-transparent.qwerty {
+    height: 7vh;
+    width: 4vw;
+    position: relative;
+}
+
+@media (max-width: 720px) {
+    .text-2xl.font-bold.bg-gradient-to-r.from-blue-500.to-purple-500.bg-clip-text.text-transparent.qwerty {
+        height: 7vh;
+        width: 10vw;
+        position: relative;
+    }
+}

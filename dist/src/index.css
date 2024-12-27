@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 30% 98%; /* Softer white with slight blue tint */
+    --foreground: 222 47% 11.2%;
+
+    --card: 240 30% 99%;
+    --card-foreground: 222 47% 11.2%;
+
+    --popover: 240 30% 99%;
+    --popover-foreground: 222 47% 11.2%;
+
+    --primary: 230 60% 60%; /* More vibrant blue */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 230 70% 95.1%; /* Subtle blue tint */
+    --secondary-foreground: 222 47% 11.2%;
+
+    --muted: 230 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 230 70% 94%; /* Subtle blue accent */
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom space-themed styles */
+.star-field {
+  @apply fixed inset-0 pointer-events-none z-0;
+}
+
+.star {
+  @apply absolute rounded-full bg-white opacity-70;
+}
+
+.nebula {
+  @apply absolute blur-3xl opacity-20;
+}
+
+.light .nebula {
+  @apply opacity-10 blur-3xl;
+  background: linear-gradient(
+    45deg,
+    rgba(147, 197, 253, 0.15),
+    rgba(196, 181, 253, 0.15),
+    rgba(167, 139, 250, 0.15)
+  );
+}
+
+.light .star {
+  @apply bg-blue-300 opacity-40;
+}
+
+/* Add subtle gradient to light mode backgrounds */
+.light body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(147, 197, 253, 0.1),
+    rgba(196, 181, 253, 0.1),
+    rgba(167, 139, 250, 0.1)
+  );
+}
+
+/* Add subtle shadows to cards in light mode */
+.light .card {
+  box-shadow: 0 4px 20px -4px rgba(147, 197, 253, 0.15);
+}

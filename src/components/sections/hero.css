@@ -1,0 +1,15 @@
+.text-2xl.timer {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-right: 30px;
+}
+
+@media (max-width: 720px) {
+    .text-2xl.timer {
+        text-align: justify;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
