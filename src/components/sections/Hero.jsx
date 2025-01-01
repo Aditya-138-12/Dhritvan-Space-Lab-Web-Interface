@@ -118,7 +118,7 @@ const Hero = () => {
                 </div>
               </div>
             ) : (
-              <p className="text-lg font-bold text-red-500">The countdown has ended!</p>
+              <p className="text-lg font-bold text-red-500">BGS ARPIT is in Space!!! <span style={{ color: "rgba(255, 0, 0, 0.5)" }}>(Amateur Radio Payload for Information Transmission)</span></p>
             )}
           </div>
 
@@ -136,7 +136,7 @@ const Hero = () => {
             </motion.button>
 
             <motion.a
-              href="mailto:debojit16mitra@gmail.com"
+              href="mailto:adityasaroha456@gmail.com"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-3 border border-blue-500 text-blue-500 hover:bg-blue-500/10 rounded-lg"

@@ -15,7 +15,7 @@ const Team = () => {
             skills: ['This is skills section'],
         },
         {
-            icon: "",
+            icon: "https://media.licdn.com/dms/image/v2/D5603AQHH4PKpNZdV5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1733157501740?e=1741219200&v=beta&t=-HvtbJb_F5wsDCJSXgzbzAZuJ35UUamk-JE-PeZ6qHY",
             title: "SRI Hari N.",
             skills: ["Geo Satellite Researcher"]
         },

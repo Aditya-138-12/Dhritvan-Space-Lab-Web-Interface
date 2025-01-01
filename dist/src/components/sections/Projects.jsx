@@ -5,13 +5,19 @@ import ProjectCard from "../ui/ProjectCard";
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
+
   const categories = [
     { id: "all", label: "All Projects" },
+    { id: "activities", label: "Activities" },
     { id: "mobile", label: "Mobile Apps" },
     { id: "web", label: "Web Apps" },
     { id: "ai_ml", label: "AI/ML" },
+    { id: "satellites", label: "Satellites" }
   ];
 
+  const projects = [];
+
+  /*
   const projects = [
     {
       id: 1,
@@ -167,12 +173,14 @@ const Projects = () => {
       image: "https://i.ibb.co/PrzV1z4/fix-my-road.webp",
     },
   ];
+  */
 
   const filteredProjects = projects.filter(
     (project) =>
       selectedCategory === "all" ||
       project.categories.includes(selectedCategory)
   );
+
 
   return (
     <section className="py-20">

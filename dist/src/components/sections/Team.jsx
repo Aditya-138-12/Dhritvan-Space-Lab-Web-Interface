@@ -6,33 +6,18 @@ const Team = () => {
     const skills = [
         {
             icon: "",
-            title: "Shrihari N., Chair, Dhritvan Space Lab",
+            title: "Teacher Name 1",
             skills: ["Java", "Kotlin", "Python", "Dart", "C++", "C", "JavaScript"],
         },
         {
-            icon: "https://media.licdn.com/dms/image/v2/D5603AQHH4PKpNZdV5Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1733157501740?e=1740614400&v=beta&t=9dq0dchLlCKtRSZJcX5wp82EIk_jIcxn0AQJGE_oWn0",
-            title: "Shrihari N., Chair, Dhritvan Space Lab",
-            skills: ["Android (Native)", "Flutter"],
+            icon: "",
+            title: "Teacher Name 2",
+            skills: ['This is skills section'],
         },
         {
-            icon: Database,
-            title: "Databases",
-            skills: ["Oracle Database", "MySQL", "SQLite", "MongoDB", "PostgreSQL"],
-        },
-        {
-            icon: Wrench,
-            title: "Development Tools",
-            skills: ["Android Studio", "Visual Studio Code", "Anaconda"],
-        },
-        {
-            icon: Box,
-            title: "Frameworks & SDKs",
-            skills: ["Android SDK", "Flutter", "Flask", "Streamlit"],
-        },
-        {
-            icon: Layout,
-            title: "Web Technologies",
-            skills: ["HTML", "CSS", "JavaScript", "React"],
+            icon: "",
+            title: "SRI Hari N.",
+            skills: ["Geo Satellite Researcher"]
         },
     ];
     return (

@@ -3,38 +3,6 @@ import { Code, Database, Layout, Box, Wrench, Smartphone } from "lucide-react";
 import SkillCard from "../ui/SkillCard";
 
 const About = () => {
-  const skills = [
-    {
-      icon: Code,
-      title: "Programming Languages",
-      skills: ["Java", "Kotlin", "Python", "Dart", "C++", "C", "JavaScript"],
-    },
-    {
-      icon: Smartphone,
-      title: "Mobile Development",
-      skills: ["Android (Native)", "Flutter"],
-    },
-    {
-      icon: Database,
-      title: "Databases",
-      skills: ["Oracle Database", "MySQL", "SQLite", "MongoDB", "PostgreSQL"],
-    },
-    {
-      icon: Wrench,
-      title: "Development Tools",
-      skills: ["Android Studio", "Visual Studio Code", "Anaconda"],
-    },
-    {
-      icon: Box,
-      title: "Frameworks & SDKs",
-      skills: ["Android SDK", "Flutter", "Flask", "Streamlit"],
-    },
-    {
-      icon: Layout,
-      title: "Web Technologies",
-      skills: ["HTML", "CSS", "JavaScript", "React"],
-    },
-  ];
 
   const timelineEvents = [
     {

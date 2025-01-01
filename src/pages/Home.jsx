@@ -5,6 +5,8 @@ import Contact from "../components/sections/Contact";
 import Team from "../components/sections/Team";
 import Gallery from "../components/sections/gallery";
 import { Timer } from "lucide-react";
+import Form from "../components/sections/form";
+
 
 const Home = () => {
   return (
@@ -26,6 +28,9 @@ const Home = () => {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section id="form">
+        <Form />
       </section>
     </div>
   );

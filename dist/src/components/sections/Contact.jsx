@@ -100,7 +100,7 @@ const Contact = () => {
       return;
     }
 
-    const mailtoLink = `mailto:debojit16mitra@gmail.com?subject=${encodeURIComponent(
+    const mailtoLink = `mailto:adityasaroha456@gmail.com?subject=${encodeURIComponent(
       formData.subject
     )}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
